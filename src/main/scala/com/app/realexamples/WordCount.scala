@@ -7,7 +7,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * @Description //TODO * 集群上执行示例，指定相关配置
   * bin/spark-submit --master spark://node1:7077 --class com.zxl.spark1_6.simple.WordCount --executor-memory 512m
   * --total-executor-cores 2 /opt/soft/jar/hello-spark-1.0.jar hdfs://node1:9000/wc hdfs://node1:9000/out
- * @Date 16:04 2019/5/30
+ * @Date 16:07 2019/5/30
  * @Param 
  * @return  
  **/
