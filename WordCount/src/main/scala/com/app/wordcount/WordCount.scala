@@ -1,6 +1,11 @@
-package com.app.realexamples
-
-import org.apache.spark.{SparkConf, SparkContext}
+/**
+  * @ClassName WordCount
+  * @Description TODO
+  * @Author zy
+  * @Date 2019/6/4 13:51
+  * @Version 1.0
+  **/
+package com.app.wordcount
 
 /*
  * @Author zhouyang
@@ -8,8 +13,8 @@ import org.apache.spark.{SparkConf, SparkContext}
   * bin/spark-submit --master spark://node1:7077 --class com.zxl.spark1_6.simple.WordCount --executor-memory 512m
   * --total-executor-cores 2 /opt/soft/jar/hello-spark-1.0.jar hdfs://node1:9000/wc hdfs://node1:9000/out
  * @Date 16:07 2019/5/30
- * @Param 
- * @return  
+ * @Param
+ * @return
  **/
 object WordCount {
 
