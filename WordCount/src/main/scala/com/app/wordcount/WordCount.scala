@@ -22,7 +22,7 @@ object WordCount {
 
   def main(args: Array[String]) {
     // 非常重要，是通向Spark集群的入口
-    val conf = new SparkConf().setAppName("WordCount")
+    val conf = new SparkConf().setAppName("WordCount").setMaster("local[2]")
     val sc = new SparkContext(conf)
 
     // reduceByKey(_+_, 1)指定partition的个数为1，即生成一个输出文件
