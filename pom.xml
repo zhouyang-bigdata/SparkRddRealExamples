@@ -11,6 +11,12 @@
     <modules>
         <module>WordCount</module>
         <module>RedisConn</module>
+        <module>CalMax</module>
+        <module>CalMin</module>
+        <module>CalAvg</module>
+        <module>CalCount</module>
+        <module>CalSum</module>
+        <module>MysqlConn</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -7,6 +7,8 @@
   **/
 package com.app.wordcount
 
+import org.apache.spark.{SparkConf, SparkContext}
+
 /*
  * @Author zhouyang
  * @Description //TODO * 集群上执行示例，指定相关配置
